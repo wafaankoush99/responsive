@@ -5,10 +5,10 @@
 
 body { 
 	max-width: 960px ; 
-    /* min-width: 480px; */
     height: max-content;
 	margin: 0 auto !important; 
 	float: none !important; 
-    text-align: center;
 }
+
+
 
