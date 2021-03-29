@@ -1,7 +1,26 @@
-div {
-    /* background-color: #DDD; */
-    border: 1px solid ;
+div , .container {
+    border: 2px solid grey ;
+}
 
-    /* padding: 50%; */
-    /* outline: 1px solid black; */
+@media (min-width: 480px){ 
+    .A{background-color: #ff7b54;}
+    .B{background-color: #ffb26b;}
+    .C{background-color: #ffd56b}
+    .D{background-color: #939b62;}
+    .E{background-color: #ff7b54;}
+    .F{background-color: #ffb26b;}
+    .G{background-color: #f37121;}
+    .H{background-color: #ffd56b;}
+    .I{background-color: #939b62;}
+}
+@media (min-width: 768px) { 
+    .A{background-color: #111d5e;}
+    .B{background-color: #c70039;}
+    .C{background-color: #f37121;}
+    .D{background-color: #c0e218;}
+    .E{background-color: #111d5e;}
+    .F{background-color: #c70039;}
+    .G{background-color: #f37121;}
+    .H{background-color: #c0e218;}
+    .I{background-color: #111d5e;}
 }
