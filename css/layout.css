@@ -1,111 +1,70 @@
     @media (min-width: 480px){ 
-
-        div{
-            background-color: rgb(85, 145, 145);
+        .container {
+            border: 2px solid;
+        }
+        .container {
+            height: 100%;
+            line-height:700% ;
             text-align: center;
+            display: grid;
+            grid-template-areas: 'windowContentHolder';
+            grid-template-columns: 50% 50%;
+            grid-template-areas: 
+            "box1 box1 "
+            "box2 box2"
+            "box3 box3"
+            "box4 box4"
+            "box5 box6"
+            "box7 box8 "
+            "box9 box9"
+    ;
         }
-        .container{
-            height: 1059px;
-            width: 484px;
-        }
-        .A {
-            width: 480px;
-            height: 75px;
-            line-height: 75px;
+    
+        .box1{grid-area: box1;}
+        .box2{grid-area: box2;}
+        .box3{grid-area: box3;}
+        .box4{grid-area: box4;}
+        .box5{grid-area: box5;}
+        .box6{grid-area: box6;}
+        .box7{grid-area: box7;}
+        .box8{grid-area: box8;}
+        .box9{grid-area: box9;}
 
-        }
-    
-        .B {
-            width: 480px;
-            height: 150px;
-            line-height: 150px;
-        }
-    
-        .CD {
-            width: 480px;
-            height: 125px;
-            line-height: 125px;
-        }
 
-        .EF {
-            width: 240px;
-            height: 250px;
-            line-height: 250px;
-            float: left;
-            
-        }
 
-        .GH {
-            width: 240px;
-            height: 250px;
-            line-height: 250px;
-            float: left;
-        }
-    
-        .I {
-            width: 480px;
-            height: 80px;
-            line-height: 80px;
-            clear: both !important;
-        }
-    
     }
 
 
 @media (min-width: 768px) { 
 
+    .container {
+        border: 2px solid;
+    }
 
-    div{
-        background-color: rgb(0, 100, 100);
+    .container {
+        line-height:550% ;
         text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 2fr 2.5fr 1.5fr ;
+        grid-template-areas: 
+        "box1 box1 box1 box1 box1 "
+        "box2 box3 box3 box4 box4"
+        "box2 box5 box6 box7 box8"
+        "box2 box9 box9 box9 box9"
+;
     }
 
-    .container{
-        height: 704px;
-        width: 964px;
+    .box1{grid-area: box1;
     }
-
-
-
-    .A {
-        width: 960px;
-        height: 100px;
-        line-height: 100px;
-        margin: 0;
-    }
-    .B {
-        width: 200px;
-        height: 600px;
-        line-height: 600px;
-        float: left;
-    }
-    .CD {
-        width: 380px;
-        height: 200px;
-        line-height: 200px;
-
-        float: left;
-        display: inline;
-    }
-    
-    .EFGH {
-        width: 190px;
-        height: 250px;
-        line-height: 250px;
-
-        float: left;
-        display: inline;
-    }
-    .I {
-        width: 760px;
-        height: 150px;
-        line-height: 150px;
-
-        float: left;
-        clear: none !important;
-        margin-left: 0;
-        padding: 0;
-    }
+    .box2{grid-area: box2;}
+    .box3{grid-area: box3;}
+    .box4{grid-area: box4;}
+    .box5{grid-area: box5;}
+    .box6{grid-area: box6;}
+    .box7{grid-area: box7;}
+    .box8{grid-area: box8;}
+    .box9{grid-area: box9;}
 
     }
     
