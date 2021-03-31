@@ -5,10 +5,17 @@
 
 body { 
 	max-width: 960px ; 
-    height: max-content;
 	margin: 0 auto !important; 
 	float: none !important; 
 }
 
+p {
+	color: white;
+	font-size: 40px;
+}
+
+div {
+	border: 1px solid;
+}
 
 

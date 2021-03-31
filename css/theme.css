@@ -1,6 +1,4 @@
-div , .container {
-    border: 2px solid grey ;
-}
+
 
 @media (min-width: 480px){ 
     .A{background-color: #ff7b54;}
