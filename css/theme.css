@@ -1,6 +1,6 @@
 
 
-@media (min-width: 480px){ 
+@media (min-width: 150px){ 
     .A{background-color: #ff7b54;}
     .B{background-color: #ffb26b;}
     .C{background-color: #ffd56b}
@@ -12,6 +12,17 @@
     .I{background-color: #939b62;}
 }
 @media (min-width: 768px) { 
+    .A{background-color: #000000	;}
+    .B{background-color: #080808;}
+    .C{background-color: #101010;}
+    .D{background-color: #181818;}
+    .E{background-color: #202020;}
+    .F{background-color: #282828;}
+    .G{background-color: #303030;}
+    .H{background-color: #383838;}
+    .I{background-color: #404040;}
+}
+@media (min-width: 992px) { 
     .A{background-color: #111d5e;}
     .B{background-color: #c70039;}
     .C{background-color: #f37121;}
