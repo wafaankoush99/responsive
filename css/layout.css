@@ -2,7 +2,11 @@
      /* MOBILE */
      @media (min-width: 150px) { 
         .container {
-            border: 2px solid;
+            border: 2px solid rgb(57, 90, 57);
+            width: 504px;
+        }
+        div {
+            border: 1px solid rgb(57, 90, 57);
         }
         .container {
             height: 100%;
@@ -10,7 +14,8 @@
             text-align: center;
             display: grid;
             grid-template-areas: 'windowContentHolder';
-            grid-template-columns: 50% 50%;
+            grid-template-columns: 250px 250px;
+            grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
             grid-template-areas: 
             "box1 box1 "
             "box2 box2"
@@ -41,6 +46,7 @@
    @media (min-width: 768px) { 
    .container {
         border: 2px solid #787878	;
+        width: 768px ;
     }
     div{
         border: 1px solid #787878	;
@@ -77,19 +83,21 @@
 @media (min-width: 992px) { 
 
     .container {
-        border: 2px solid;
+        border: 2px solid rgb(131, 131, 48);
+        width: 954px;
+        height: 703px;
     }
 
     div {
-        border: 1px solid black;
+        border: 1px solid rgb(131, 131, 48);
     }
 
     .container {
         line-height:550% ;
         text-align: center;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 2fr 2.5fr 1.5fr ;
+        grid-template-columns: 190px 190px 190px 190px 190px;
+        grid-template-rows: 100px 200px 250px 150px ;
         grid-template-areas: 
         "box1 box1 box1 box1 box1 "
         "box2 box3 box3 box4 box4"
