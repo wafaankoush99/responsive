@@ -1,4 +1,6 @@
-    @media (min-width: 480px){ 
+
+     /* MOBILE */
+     @media (min-width: 150px) { 
         .container {
             border: 2px solid;
         }
@@ -35,10 +37,51 @@
     }
 
 
-@media (min-width: 768px) { 
+   /* TABLET */
+   @media (min-width: 768px) { 
+   .container {
+        border: 2px solid #787878	;
+    }
+    div{
+        border: 1px solid #787878	;
+
+    }
+
+    .container {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr ;
+        grid-template-areas: 
+        "box1 box2 box5 box5"
+        " box3 box6 box4 box4"
+        "box9 box6 box7 box8"
+        /* "box7 . box7" */
+
+;
+    }
+
+    .box1{grid-area: box1;
+    }
+    .box2{grid-area: box2;}
+    .box3{grid-area: box3;}
+    .box4{grid-area: box4;}
+    .box5{grid-area: box5;}
+    .box6{grid-area: box6;}
+    .box7{grid-area: box7;}
+    .box8{grid-area: box8;}
+    /* .box9{grid-area: box9;} */
+}
+  
+/* DESKTOP */
+@media (min-width: 992px) { 
 
     .container {
         border: 2px solid;
+    }
+
+    div {
+        border: 1px solid black;
     }
 
     .container {
@@ -68,3 +111,4 @@
 
     }
     
+   
